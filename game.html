@@ -2,9 +2,15 @@
     <canvas id="gameCanvas" width="800" height="600"> </canvas>
 
     <script>
+        var canvas;
+        var canvasContext;
+
         //function dont start until the page is loaded
         window.onload = function(){
-
+            canvas = document.getElementById('gamesCanvas');
+            canvasContext = canvas.getContext('2s');
+            canvasContext.fillStyle = 'black';
+            canvasContext.fillRect(0, 0, canvas.width, canvas.height);
         }
     </script>
 </html>
