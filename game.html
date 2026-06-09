@@ -10,6 +10,7 @@
         var canvas;
         var canvasContext;
         var ballX = 50;
+        var ballSpeed = 10;
 
         //function dont start until the page is loaded
         window.onload = function(){
@@ -26,7 +27,16 @@
         }
 
         function moveEverything(){
-            ballX = ballX + 5;
+            ballX = ballX + ballSpeed;
+            
+            //bouncing the ball if it hits the wall (right side)
+            if(ballX > canvas.width){
+                ballSpeed = -ballSpeed;
+            }
+            //left side
+            if(ballX < 0){
+                ballSpeed = -ballSpeed;
+            }
         }
 
         function drawEverything(){
