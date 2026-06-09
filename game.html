@@ -40,8 +40,13 @@
         }
 
         function drawEverything(){
+            // blanks out the screen with black
             colorRec(0, 0, canvas.width, canvas.height, 'black');
+
+            // left player paddle
             colorRec(0, 210, 10, 100, 'white');
+
+            // draws ball
             colorRec(ballX, 100, 10, 10, 'red');
 
         }
