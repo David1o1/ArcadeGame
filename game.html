@@ -61,8 +61,22 @@
             ballY = canvas.height/2;
         }
 
+        // function for the computer's movement
+        function computerMovement(){
+            var paddle2Ycenter = paddle2Y + (PADDLE_HEIGHT/2);
+
+            if(paddle2Ycenter < ballY){
+                paddle2Y += 6;
+            }
+            else{
+                paddle2Y -= 6;
+            }
+        }
+
         // function for every movement on the board
         function moveEverything(){
+            computerMovement();
+
             ballX = ballX + ballSpeedX;
             ballY = ballY + ballSpeedY;
 
