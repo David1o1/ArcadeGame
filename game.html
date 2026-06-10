@@ -50,6 +50,7 @@
 
         }
 
+        // function to reset the ball to the center if ball hits the side walls
         function ballReset(){
             ballSpeedX = -ballSpeedX;
             ballX = canvas.width/2;
@@ -66,7 +67,13 @@
             }
             //left side
             if(ballX < 0){
-                ballReset();
+                if(ballY > paddle1Y && ballY < (paddle1Y+PADDLE_HEIGHT)){
+                    ballSpeedX = -ballSpeedX;
+                }
+                else{
+                    ballReset();
+                }
+                
             }
 
             //Up
