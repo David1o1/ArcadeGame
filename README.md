@@ -2,7 +2,7 @@
 
 ## 🧐💡 Ping pong, old school game
 
-Ping pong against bot simulation...
+We are going for a ping pong game against a bot simulation... yea
 
 ---
 ## 📸 How far have we come? 
