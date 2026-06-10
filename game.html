@@ -7,6 +7,7 @@
     <canvas id="gameCanvas" width="800" height="600"> </canvas>
 
     <script>
+        // variables and constants
         var canvas;
         var canvasContext;
         var ballX = 50;
@@ -57,6 +58,7 @@
             ballY = canvas.height/2;
         }
 
+        // function for every movement on the board
         function moveEverything(){
             ballX = ballX + ballSpeedX;
             ballY = ballY + ballSpeedY;
@@ -86,6 +88,7 @@
             }
         }
 
+        // function for every drawing on the board
         function drawEverything(){
             // colors the screen black
             colorRec(0, 0, canvas.width, canvas.height, 'black');
