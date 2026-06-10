@@ -3,6 +3,7 @@
 ## 🧐💡 Ping pong, old school game
 
 Ping pong against bot simulation...
+---
 
 ## 📸 How far have we come? 
 ### Exhibit 1
