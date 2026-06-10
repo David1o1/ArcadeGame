@@ -14,8 +14,11 @@
         var ballY = 50;
         var ballSpeedX = 10;
         var ballSpeedY = 4;
+
         var paddle1Y = 250;
+        var paddle2Y = 250;
         const PADDLE_HEIGHT = 100;
+        const PADDLE_THICKNESS = 10;
 
         //where the mouse is in the canvas...
         function calculateMousePos(evt){
@@ -94,7 +97,10 @@
             colorRec(0, 0, canvas.width, canvas.height, 'black');
 
             // left player paddle
-            colorRec(0, paddle1Y, 10, PADDLE_HEIGHT, 'white');
+            colorRec(0, paddle1Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'white');
+
+            // right computer paddle
+            colorRec(canvas.width - PADDLE_THICKNESS, paddle2Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'white');
 
             // draws ball
             colorCircle(ballX, ballY, 10, 'white');
