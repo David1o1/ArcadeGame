@@ -6,6 +6,6 @@ Ping pong against bot simulation...
 
 ## 📸 How far have we come? 
 ### Exhibit 1
-<img width="1024" height="665" alt="Kapture 2026-06-10 at 17 13 44" src="https://github.com/user-attachments/assets/2999771d-e186-4dcc-a851-05dbc6b1348c" />
+<img width="800" height="520" alt="Kapture 2026-06-10 at 17 13 44" src="https://github.com/user-attachments/assets/2999771d-e186-4dcc-a851-05dbc6b1348c" />
 
 
