@@ -87,6 +87,12 @@
             if(ballX > canvas.width){
                 if(ballY > paddle2Y && ballY < (paddle2Y+PADDLE_HEIGHT)){
                     ballSpeedX = -ballSpeedX;
+                    
+                    // value for how far above or below the center of paddle we are
+                    var deltaY = ballY - (paddle2Y+PADDLE_HEIGHT/2);
+
+                    // ball control so that the further from the center of the paddle you hit the ball, the faster return, hitting it center makes it easier to hit back
+                    ballSpeedY = deltaY * 0.35;
                 }
                 else{
                     ballReset();
@@ -98,6 +104,12 @@
             if(ballX < 0){
                 if(ballY > paddle1Y && ballY < (paddle1Y+PADDLE_HEIGHT)){
                     ballSpeedX = -ballSpeedX;
+
+                    // value for how far above or below the center of paddle we are
+                    var deltaY = ballY - (paddle1Y+PADDLE_HEIGHT/2);
+
+                    // ball control so that the further from the center of the paddle you hit the ball, the faster return, hitting it center makes it easier to hit back
+                    ballSpeedY = deltaY * 0.35;
                 }
                 else{
                     ballReset();
