@@ -41,6 +41,15 @@
             };
         }
 
+        function handleMouseClick(evt){
+            // if we click, scores reset, win screen message and boolean set to false
+            if(showingWinScreen){
+                player1Score = 0;
+                player2Score = 0;
+                showingWinScreen = false;
+            }
+        }
+
         //function dont start until the page is loaded
         window.onload = function(){
             canvas = document.getElementById('gameCanvas');
@@ -52,6 +61,8 @@
                 moveEverything();
                 drawEverything();
             }, 1000/framesPerSecond);
+            
+            canvas.addEventListener('mousemove', handleMouseClick);
 
             canvas.addEventListener('mousemove', function(evt){
                 var mousePos = calculateMousePos(evt);
