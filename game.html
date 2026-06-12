@@ -42,7 +42,7 @@
         }
 
         function handleMouseClick(evt){
-            // if we click, scores reset, win screen message and boolean set to false
+            // if we click, scores reset, win screen message removed and boolean set to false
             if(showingWinScreen){
                 player1Score = 0;
                 player2Score = 0;
@@ -61,7 +61,7 @@
                 moveEverything();
                 drawEverything();
             }, 1000/framesPerSecond);
-            
+
             canvas.addEventListener('mousemove', handleMouseClick);
 
             canvas.addEventListener('mousemove', function(evt){
@@ -74,9 +74,6 @@
         // function to reset the ball to the center if ball hits the side walls
         function ballReset(){
             if(player1Score >= WIN_SCORE || player2Score >= WIN_SCORE){
-                player1Score = 0;
-                player2Score = 0;
-
                 // for a pause to show that game over and someone won
                 showingWinScreen = true; 
             }
