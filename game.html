@@ -19,6 +19,8 @@
         var player2Score =0;
         const WIN_SCORE = 3;
 
+        var showingWinScreen = false;
+
         var paddle1Y = 250;
         var paddle2Y = 250;
         const PADDLE_HEIGHT = 100;
@@ -63,6 +65,9 @@
             if(player1Score >= WIN_SCORE || player2Score >= WIN_SCORE){
                 player1Score = 0;
                 player2Score = 0;
+
+                // for a pause to show that game over and someone won
+                showingWinScreen = true; 
             }
 
             ballSpeedX = -ballSpeedX;
@@ -84,6 +89,11 @@
 
         // function for every movement on the board
         function moveEverything(){
+            // if game won, jump out the function, nothing moves
+            if(showingWinScreen){
+                return;
+            }
+
             computerMovement();
 
             ballX = ballX + ballSpeedX;
@@ -141,6 +151,13 @@
             // colors the screen black
             colorRec(0, 0, canvas.width, canvas.height, 'black');
 
+            // if game won, jump out the function, nothing moves
+            if(showingWinScreen){
+                // if I dont define a new color here, the old fillstyle color would apply, which is black here. So we end up with black screen and black text
+                canvasContext.fillStyle = 'white';
+                canvasContext.fillText("Click to continue", canvas.width-100, 100);
+                return;
+            }
             // left player paddle
             colorRec(0, paddle1Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'white');
 
