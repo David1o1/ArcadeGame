@@ -62,7 +62,7 @@
                 drawEverything();
             }, 1000/framesPerSecond);
 
-            canvas.addEventListener('mousemove', handleMouseClick);
+            canvas.addEventListener('mousedown', handleMouseClick);
 
             canvas.addEventListener('mousemove', function(evt){
                 var mousePos = calculateMousePos(evt);
