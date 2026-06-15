@@ -163,7 +163,14 @@
             if(showingWinScreen){
                 // if I dont define a new color here, the old fillstyle color would apply, which is black here. So we end up with black screen and black text
                 canvasContext.fillStyle = 'white';
-                canvasContext.fillText("Click to continue", canvas.width-100, 100);
+                if(player1Score >= WIN_SCORE){
+                    canvasContext.fillText("Left Player Won!", 350, 200);
+                }
+                else if(player2Score >= WIN_SCORE){
+                    canvasContext.fillText("Right Player Won!", 350, 200);
+                }
+
+                canvasContext.fillText("Click to continue", 350, 500);
                 return;
             }
             // left player paddle
