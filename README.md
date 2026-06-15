@@ -52,7 +52,7 @@ Live Server for local development
 ## 🚀 How to Run Locally
 1. Clone the repository:
 2. git clone https://github.com/David1o1/ArcadeGame.git
-3. Open the project folder in Cursor or VS Code.
+3. Open the folder in Cursor or VS Code.
 4. Open index.html with Live Server.
 
 ---
