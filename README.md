@@ -57,4 +57,11 @@ Live Server for local development
 
 ---
 ## 📌 Status
-* The first playable version is complete. Possible future improvements include keyboard controls, difficulty levels, sound effects, and improved styling.
+* The first playable version is complete. Possible future improvements include keyboard controls, sound effects, and improved styling
+
+---
+## 💬 Programmer's Final Words :))
+
+git commit -m "Game complete"
+
+On to the next level 🎮🚀
