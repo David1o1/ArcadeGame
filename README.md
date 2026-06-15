@@ -41,10 +41,10 @@ A simple browser-based arcade game built with HTML5 Canvas and JavaScript.
 
 ---
 ## 🛠️ Tech stack
-HTML
-JavaScript
-HTML5 Canvas
-Live Server for local development
+- HTML
+- JavaScript
+- HTML5 Canvas
+- Live Server for local development
 
 ---
 ## 🚀 How to Run Locally
