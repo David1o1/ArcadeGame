@@ -1,6 +1,4 @@
-# ArcadeGame
-
-## 🕹️ Old-school Ping Pong Game
+# 🕹️ Old-school Ping Pong Game
 
 A simple browser-based arcade game built with HTML5 Canvas and JavaScript.
 
