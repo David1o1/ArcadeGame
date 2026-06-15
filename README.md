@@ -62,4 +62,4 @@ A simple browser-based arcade game built with HTML5 Canvas and JavaScript.
 
 git commit -m "Game complete"
 
-On to the next level 🎮🚀
+On to the next onee 🎮🚀
