@@ -15,4 +15,7 @@ Going for a ping pong game against a bot simulation... yea
 <img width="800" height="463" alt="Kapture 2026-06-10 at 18 47 31 18 50 55" src="https://github.com/user-attachments/assets/77601bdb-7092-4105-8ce2-163f066b2bba" />
 
 
+### Exhibit 3, Finished:
+<img width="1000" height="711" alt="Kapture 2026-06-15 at 19 08 54" src="https://github.com/user-attachments/assets/79ca55bf-74cd-43c1-91b0-57131580ce93" />
+
 
