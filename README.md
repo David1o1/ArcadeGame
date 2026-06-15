@@ -1,6 +1,6 @@
 # ArcadeGame
 
-## 🧐💡 Ping pong, old school game
+## 🕹️ Old-school Ping Pong Game
 
 A simple browser-based arcade game built with HTML5 Canvas and JavaScript.
 
@@ -21,4 +21,40 @@ A simple browser-based arcade game built with HTML5 Canvas and JavaScript.
 
 <img width="1000" height="711" alt="Kapture 2026-06-15 at 19 08 54" src="https://github.com/user-attachments/assets/79ca55bf-74cd-43c1-91b0-57131580ce93" />
 
+---
+## ✅ Features
+- Built with HTML5 Canvas and JavaScript
+- Player paddle controlled by mouse movement
+- Computer-controlled opponent paddle
+- Ball movement with wall and paddle collision detection
+- Score tracking for both player and computer
+- Win condition when a player reaches the target score
+- Click-to-restart functionality after the game ends
+- Helper functions for drawing rectangles, circles, and the center net
 
+---
+## 🧠 What I learned
+- How to draw and update graphics using the HTML5 Canvas API
+- How to build a basic game loop with JavaScript
+- How to track position, speed, and movement using variables
+- How collision detection works between the ball, paddles, and canvas walls
+- How to handle mouse movement and click events inside the canvas
+- How to split game logic into smaller functions for drawing, movement, scoring, and resetting
+
+---
+## 🛠️ Tech stack
+HTML
+JavaScript
+HTML5 Canvas
+Live Server for local development
+
+---
+## 🚀 How to Run Locally
+1. Clone the repository:
+2. git clone https://github.com/David1o1/ArcadeGame.git
+3. Open the project folder in Cursor or VS Code.
+4. Open index.html with Live Server.
+
+---
+## 📌 Status
+* The first playable version is complete. Possible future improvements include keyboard controls, difficulty levels, sound effects, and improved styling.
