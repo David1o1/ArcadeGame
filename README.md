@@ -17,6 +17,7 @@ Going for a ping pong game against a bot simulation... yea
 
 ### Exhibit 3, Finished:
 I won first, and let bot win second if it wasn´t clear :))
+
 <img width="1000" height="711" alt="Kapture 2026-06-15 at 19 08 54" src="https://github.com/user-attachments/assets/79ca55bf-74cd-43c1-91b0-57131580ce93" />
 
 
